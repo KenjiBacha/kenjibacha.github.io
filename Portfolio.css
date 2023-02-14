@@ -27,7 +27,7 @@ table {
   #Webpage {
     margin: 2.0rem 3.0rem; /* first input= top+bottom margin, then clock wise left+right, only 1 value for each.*/
     font-size: 100%;
-    background-color: var(--color-primary-3); 
+    background-color: var(--color-complement-4); 
 }
 
 /**Banner**/
@@ -71,14 +71,13 @@ table {
 /**Content**/
 #content
 {
- background-color: var(--color-primary-0);
+ background-color: var(--color-primary-3);
  border-radius: 10px;
  padding: 0.5rem;
 }
 
 #SelfPort
 {
-
     border-radius: 10px;
 }
 
@@ -100,7 +99,7 @@ h3{
 }
 p{
     font: 1.5rem Georgia, Serif ;
-    color: var(--color-primary-1); 
+    color: var(--color-complement-2); 
     text-align: left;
 }
 /**Content**/
