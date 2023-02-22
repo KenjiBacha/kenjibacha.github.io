@@ -25,18 +25,18 @@ table {
   }
 /**Webpage**/
   #Webpage {
-    margin: 2.0rem 3.0rem; /* first input= top+bottom margin, then clock wise left+right, only 1 value for each.*/
+    margin: 2.0rem 2.0rem; /* first input= top+bottom margin, then clock wise left+right, only 1 value for each.*/
     font-size: 100%;
     background-color: var(--color-complement-4); 
 }
 
-/**Banner**/
-#banner {
+/**Banner
+/**#banner {
     align-items: left;
     background-color: #5B6079;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #4A59A8;
-    padding: 1rem 1rem 0 1rem; /*Area within the "box" it self.organize top right bottom left*/
+    padding: 1rem 1rem 0 1rem; /*Area within the "box" it self.organize top right bottom left
     margin-bottom: 1.5rem;
     text-align: center;
     width: 500px;
@@ -48,7 +48,7 @@ table {
         background-color: #B1A27F;
         border-radius: 10px;
         padding: 0.5rem 0;
-        overflow: hidden; /*hides anything going past this border*/
+        overflow: hidden; /*hides anything going past this border*
 
     }
         #banner nav ul {
@@ -67,13 +67,32 @@ table {
             font-size: 1.6rem;
             text-decoration: none;
         }
-/**Banner**/
+Banner**/
+
+#Webpage .navBarstyles{
+    /* color: var(--color-primary-4); */
+    background-color:var(--color-complement-3)!important ;
+    /* font-size: 3.0rem; 
+    font-family: 'Bookman Old Style', Arial ; */
+}
+
+.navBarstyles .navBartext{
+    color: var(--color-primary-4);
+    font-size: 2.0rem; 
+    font-family: 'Bookman Old Style', Arial ;
+}
+
+.justify-left{
+    justify-content: left;
+}
+
 /**Content**/
 #content
 {
  background-color: var(--color-primary-3);
  border-radius: 10px;
  padding: 0.5rem;
+ margin-top: 3.5rem
 }
 
 #SelfPort
@@ -86,7 +105,7 @@ table {
 }
 
 h2{
-    color: #B1A27F;
+    color: var(--color-primary-3);
     font-size: 3.0rem; 
     font-family: 'Bookman Old Style', Arial ;
     margin: 10px;
