@@ -98,6 +98,11 @@ Banner**/
 #SelfPort
 {
     border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.title-header {
+    text-align: center;
 }
 
 .subheading{
