@@ -69,6 +69,7 @@ table {
         }
 Banner**/
 
+/**Nav Bar Styles**/
 #Webpage .navBarstyles{
     /* color: var(--color-primary-4); */
     background-color:var(--color-complement-3)!important ;
@@ -81,6 +82,7 @@ Banner**/
     font-size: 2.0rem; 
     font-family: 'Bookman Old Style', Arial ;
 }
+/**Nav Bar Styles**/
 
 .justify-left{
     justify-content: left;
@@ -128,12 +130,40 @@ p{
 }
 /**Content**/
 
+/*Home Page Specific IDs + styles*/
 .HPProject{
     padding: 1px;
     font-size: 0.5rem;
     /* border:1px solid red; */
+
 }
 
+#Proj1-Thumbnail{
+    /*Temp colorfill*/
+    background-color:Blue;
+    /*background-image: thumbnail for project */
+}
+
+#Proj2-Thumbnail{
+    /*Temp colorfill*/
+    background-color:Blue;
+    /*background-image: thumbnail for project */
+}
+
+#Proj3-Thumbnail{
+    /*Temp colorfill*/
+    background-color:Blue;
+    /*background-image: thumbnail for project */
+}
+
+.Infotext{
+    visibility: hidden;
+}
+.HPProject:hover .Infotext{
+    background: var(--color-complement-3);
+    visibility: visible;
+}
+/*Home Page Specific IDs + styles*/
 
 /* CSS - Cascading Style Sheet */
 /* Palette color codes */
