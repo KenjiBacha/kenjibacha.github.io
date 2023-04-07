@@ -25,49 +25,10 @@ table {
   }
 /**Webpage**/
   #Webpage {
-    margin: 2.0rem 2.0rem; /* first input= top+bottom margin, then clock wise left+right, only 1 value for each.*/
+    margin: 1.5rem 1.0rem; /* first input= top+bottom margin, then clock wise left+right, only 1 value for each.*/
     font-size: 100%;
     background-color: var(--color-complement-4); 
 }
-
-/**Banner
-/**#banner {
-    align-items: left;
-    background-color: #5B6079;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #4A59A8;
-    padding: 1rem 1rem 0 1rem; /*Area within the "box" it self.organize top right bottom left
-    margin-bottom: 1.5rem;
-    text-align: center;
-    width: 500px;
-}
-    #banner h1{
-        font-size:2.5rem;
-    }
-    #banner nav {
-        background-color: #B1A27F;
-        border-radius: 10px;
-        padding: 0.5rem 0;
-        overflow: hidden; /*hides anything going past this border*
-
-    }
-        #banner nav ul {
-            text-align: left;
-            padding: 0;
-        }
-
-        #banner nav li {
-            display: inline;
-            padding: 1.0rem 2.0rem
-        }
-
-        #banner nav a {
-            color: #4A59A8;
-            padding: 0.5rem 0;
-            font-size: 1.6rem;
-            text-decoration: none;
-        }
-Banner**/
 
 /**Nav Bar Styles**/
 #Webpage .navBarstyles{
@@ -108,7 +69,7 @@ Banner**/
 }
 
 .subheading{
-    padding:10px, 10px;
+    padding:10px 10px;
 }
 
 h2{
@@ -131,38 +92,52 @@ p{
 /**Content**/
 
 /*Home Page Specific IDs + styles*/
+.Infotext{
+    background: var(--color-complement-3);
+    background-clip: padding-box;
+    visibility: hidden;
+    padding: .8rem;
+    border-radius: 10px;
+    
+}
+.HPProject:hover .Infotext{
+    visibility: visible;
+  
+}
 .HPProject{
-    padding: 1px;
     font-size: 0.5rem;
-    /* border:1px solid red; */
-
+    padding: .3rem;
+    margin-bottom: 1rem;
 }
 
 #Proj1-Thumbnail{
-    /*Temp colorfill*/
-    background-color:Blue;
-    /*background-image: thumbnail for project */
+    border-radius: 10px;
+    background-image: url("FilmScatter-plot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
 }
 
 #Proj2-Thumbnail{
-    /*Temp colorfill*/
-    background-color:Blue;
-    /*background-image: thumbnail for project */
+    border-radius: 10px;
+    background-image: url("4 - Filter Options - Inactive.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
 }
 
 #Proj3-Thumbnail{
-    /*Temp colorfill*/
-    background-color:Blue;
-    /*background-image: thumbnail for project */
+    border-radius: 10px;
+    background-image: url("PinballDesign_CombinedMachine.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
 }
 
-.Infotext{
-    visibility: hidden;
-}
-.HPProject:hover .Infotext{
-    background: var(--color-complement-3);
-    visibility: visible;
-}
+
 /*Home Page Specific IDs + styles*/
 
 /* CSS - Cascading Style Sheet */
