@@ -62,8 +62,12 @@ table {
 {
     border-radius: 10px;
     margin-bottom: 15px;
+    max-width: 80%;
+    height: auto; 
 }
-
+#Biography{
+    text-align: center;
+}
 .title-header {
     text-align: center;
 }
@@ -84,6 +88,7 @@ h3{
     font-size: 1.8rem;
     font-family: 'Bookman Old Style', Arial ;
 }
+
 p{
     font: 1.5rem Georgia, Serif ;
     color: var(--color-complement-2); 
