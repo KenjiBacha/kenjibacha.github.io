@@ -143,6 +143,11 @@ p{
     background-origin: padding-box;
 }
 
+#IGProp{
+
+    height: auto;
+    max-width: 90%;
+}
 
 
 
